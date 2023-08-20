@@ -1,1 +1,17 @@
 /*  your css code here. If applicable */
+#container{
+	display:inline-flex;
+}
+
+#container::Before{
+	content:"Before Element";
+	margin: 20px;
+	color: #f00;
+	font-size: 20px	
+}
+#container::After{
+	content:"After Element";
+	margin: 20px;
+	color: #f00;
+	font-size: 20px	
+}
